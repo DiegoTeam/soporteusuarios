@@ -9,16 +9,40 @@
 
     <div class="login-box">
       <img src="img/ctl.png" class="avatar" alt="Avatar Image">
-      <h1>Logeate wachin</h1>
+      <h1>Admin Panel</h1>
       <form>
         <!-- USERNAME INPUT -->
-        <label for="username">Quien so?</label>
-        <input type="text" placeholder="Solo 1 Homero">
+        <label for="username">Usuario</label>
+        <input id="user" type="text" placeholder="Admin">
+
         <!-- PASSWORD INPUT -->
-        <label for="password">Constraseña</label>
-        <input type="password" placeholder="Sabemos que es 12345">
-        <input type="submit" value="MATERIALIZA">
+        <label for="password">Contraseña</label>
+        <input id="pass" type="password" placeholder="******">
+
+        <input id="enviar" type="submit" value="INIT" onclick="validar(event)">
       </form>
+
+
+      <script>
+        function validar(e) {
+          e.preventDefault()
+          if (document.getElementById("user").value == 'Admin') {  
+            console.log('Usuario OK');        
+            if (document.getElementById("pass").value == 'Admin$$2740'){
+              window.location.href = 'site.html';
+              } else { 
+                console.log('Pass BAD');           
+                      }
+        } else {
+          console.log('Usuario BAD'); 
+        }
+
+        }
+        </script>
+
+
+    
+
     </div>
   </body>
 </html>
