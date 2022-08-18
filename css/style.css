@@ -166,6 +166,8 @@ p {
     position: absolute;
     bottom: 0;
     width: 95%;
+    display: flex;
+    justify-content: flex-end;
 }
 .panel a{
     text-decoration: none;
