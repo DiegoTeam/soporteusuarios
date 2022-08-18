@@ -34,7 +34,7 @@ body {
     font-size: 20px;
 }
 
-header{
+header {
     height: 20vh;
     display: flex;
     flex-direction: row-reverse;
@@ -43,7 +43,7 @@ header{
     padding-bottom: 300px;
 }
 
-.sau{
+.sau {
     height: 20vh;
     display: flex;
     flex-direction: column;
