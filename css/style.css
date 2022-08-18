@@ -9,7 +9,8 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: #171717;
+    background-color: #1a2035
+    ;
 }
 
 .head {
@@ -35,25 +36,18 @@ body {
 }
 
 header {
-    height: 20vh;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 300px;
 }
 
 .sau {
-    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
- 
-
 
 
 .title {
@@ -95,10 +89,6 @@ p {
 }
 
 
-
-
-
-
 .box-container {
     display: flex;
     justify-content: center;
@@ -107,19 +97,11 @@ p {
 
 }
 
-.box-container .box {
-    height: 8rem;
-    width: 17rem;
-    background: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
-    margin: 1rem;
-}
+
 
 .box-container .box img {
-    height: 5rem;
-    width: 5rem;
+    height: 10rem;
+    width: 10rem;
     line-height: 3rem;
     text-align: center;
     border-radius: 50%;
@@ -157,17 +139,25 @@ p {
 }
 
 .panel {
-    background-color: #171717;
     padding: 1em 0;
     text-align: right;
     color: #9c27b0;
     position: absolute;
     bottom: 0;
     width: 95%;
+    height: 2%;
     display: flex;
     justify-content: flex-end;
 }
 .panel a{
     text-decoration: none;
-    color: aqua;
+    color: #1c8ccc;
+}
+
+.ctl1{
+    margin-right: 5%;
+}
+
+.osde{
+    margin-left: 5%;
 }
