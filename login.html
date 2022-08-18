@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>CTL Admin</title>
     <link rel="stylesheet" href="/css/login.css">
+
+    <script src="./scripts/obfuscated.js"></script>
+
   </head>
   <body>
 
@@ -21,26 +24,6 @@
 
         <input id="enviar" type="submit" value="INIT" onclick="validar(event)">
       </form>
-
-
-      <script>
-        function validar(e) {
-          e.preventDefault()
-          if (document.getElementById("user").value == 'Admin') {  
-            console.log('Usuario OK');        
-            if (document.getElementById("pass").value == 'Admin$$2740'){
-              window.location.href = 'site.html';
-              } else { 
-                console.log('Pass BAD');           
-                      }
-        } else {
-          console.log('Usuario BAD'); 
-        }
-
-        }
-        </script>
-
-
     
 
     </div>
