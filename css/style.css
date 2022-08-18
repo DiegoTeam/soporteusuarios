@@ -36,21 +36,30 @@ body {
     font-size: 20px;
 }
 
-
-
-
-.header {
+.header{
+    height: 20vh;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 300px;
+}
+
+.sau{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.ctl1{
+    display: flex;
+    justify-content: flex-end;
 
 }
 
-.header {
-    height: 60px !important;
-    /*background: url(img/header.jpg) no-repeat center;
-    background-size: cover;*/
-}
+
 
 .title {
     margin-bottom: 40px;
@@ -91,13 +100,7 @@ p {
 }
 
 
-.content {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 
