@@ -27,7 +27,7 @@ body {
     border-radius: 101px 10px 101px 10px;
     position: absolute;
     top: -50px;
-    left: calc(50% - 83px);
+    left: calc(50% - 100px);
   }
   
   .login-box h1 {
@@ -71,8 +71,8 @@ body {
   
   .login-box input[type="submit"]:hover {
     cursor: pointer;
-    background: #6b030f;
-    color: #000;
+    background: #800513;
+    color: #fff;
   }
   
   .login-box a {
