@@ -164,3 +164,15 @@ p {
 .osde {
     margin-left: 5%;
 }
+
+#particles-js{
+    background-color: #1a2035;      
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("");
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
