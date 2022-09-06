@@ -10,7 +10,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     /* background-color: #1a2035; */
-    background-image: url(/img/fondo.svg);
+    /* background-image: url(/img/fondo.svg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -173,6 +173,6 @@ p {
     background-image: url("");
     position: absolute;
     z-index: -1;
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
 }
