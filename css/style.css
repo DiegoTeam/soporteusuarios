@@ -11,8 +11,8 @@ body {
     font-family: sans-serif;
     /* background-color: #1a2035; */
     /* background-image: url(/img/fondo.svg); */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 .head {
